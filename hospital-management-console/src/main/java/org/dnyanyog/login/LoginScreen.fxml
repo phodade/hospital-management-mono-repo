@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="913.0" prefWidth="1479.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dnyanyog.login.LoginScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa51f" height="906.0" layoutX="14.0" layoutY="17.0" stroke="BLACK" strokeType="INSIDE" width="1466.0" />
+      <ImageView fitHeight="293.0" fitWidth="287.0" layoutX="716.0" layoutY="152.0">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="237.0" layoutY="192.0" prefHeight="48.0" prefWidth="216.0" text="जीवयुर्भवति">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="mobile_number" layoutX="223.0" layoutY="421.0" prefHeight="48.0" prefWidth="272.0" promptText="Mobile Number" />
+      <TextField fx:id="password" layoutX="221.0" layoutY="513.0" prefHeight="48.0" prefWidth="272.0" promptText="Password" />
+      <Label layoutX="304.0" layoutY="334.0" text="Login">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="Next" layoutX="269.0" layoutY="600.0" mnemonicParsing="false" onAction="#NextButton" prefHeight="48.0" prefWidth="155.0" text="Next" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="77.0" fitWidth="109.0" layoutX="282.0" layoutY="139.0">
+         <image>
+            <Image url="@logo1.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
